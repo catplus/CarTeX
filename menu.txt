@@ -1,0 +1,11 @@
+1| PRIMERS PLATS
+2| ENTRANTS FREDS I CALENTS
+3|Amanida de ventresca amb tomàquet i ceba|13,90
+3|Xatonada l’Olivé|12,50
+3|Ceba de figueres “al cop de puny” amb tomàquet i olives|9,85
+
+1| SEGONS PLATS
+2|ARROSSOS I FIDEUS
+3|Arròs dels pescadors|21,95
+3|Arròs negre amb sèpia, gambes i alls tendres|18,30
+3|Arròs de carn i verdures (paella)|17,90

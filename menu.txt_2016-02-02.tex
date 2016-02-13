@@ -1,0 +1,73 @@
+\documentclass[a4paper,oneside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[catalan]{babel}
+\usepackage{fullpage}
+\usepackage{multicol}
+%\usepackage{tabu}
+\usepackage{eurosym}
+\usepackage{graphicx}
+% ------
+% Fonts and typesetting settings
+\usepackage[sc]{mathpazo}
+%\usepackage{libertine}
+\usepackage[utf8]{inputenc}
+\linespread{1.05} % Palatino needs more space between lines
+\usepackage{microtype}
+\usepackage[catalan]{babel}
+\usepackage{setspace}
+
+\renewcommand{\baselinestretch}{1.0} 
+
+% ------
+% Page layout
+\usepackage[hmarginratio=1:1,top=3mm,bottom=3mm,left=2cm,right=1em]{geometry}
+\usepackage[font=it]{caption}
+\usepackage{paralist}
+\usepackage{makeidx}
+
+% ------
+% Titling (section/subsection)
+\usepackage{titlesec}
+%\renewcommand\thesection{\Roman{section}}
+\titleformat{\section}[block]{\bfseries\sffamily}{\thesection.}{1em}{}
+% ------
+% Clickable URLs (optional)
+\usepackage{hyperref}
+% ------
+% Maketitle metadata
+\title{RESTAURANT CHEZ STALLMAN}
+\date{}
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{center}
+RESTAURANT CHEZ STALLMAN \\
+\bigskip
+\includegraphics[scale=0.5]{logo_restaurant.jpg}
+\end{center}
+\small
+\pagenumbering{gobble} 
+%    \begin{multicols*}{2}
+\begin{center}
+\textbf{ PRIMERS PLATS}
+\end{center}
+\hrule
+\bigskip
+\textbf{ ENTRANTS FREDS I CALENTS}
+\begin{quote}
+Amanida de ventresca amb tomàquet i ceba \dotfill \ 13,90\ \euro \\
+Xatonada l’Olivé \dotfill \ 12,50\ \euro \\
+Ceba de figueres “al cop de puny” amb tomàquet i olives \dotfill \ 9,85\ \euro \\
+\end{quote}
+\begin{center}
+\textbf{ SEGONS PLATS}
+\end{center}
+\hrule
+\bigskip
+\textbf{ARROSSOS I FIDEUS}
+\begin{quote}
+Arròs dels pescadors \dotfill \ 21,95\ \euro \\
+Arròs negre amb sèpia, gambes i alls tendres \dotfill \ 18,30\ \euro \\
+Arròs de carn i verdures (paella) \dotfill \ 17,90\ \euro \\
+	\end{quote}
+%    \end{multicols*}
+\end{document}
